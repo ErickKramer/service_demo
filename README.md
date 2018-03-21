@@ -1,14 +1,13 @@
-#Foundation Course: Service / Client
+# Foundation Course: Service / Client
 
 This is an introduction practice for service and client
 
-
-##Instructions:
-=======
+## Instructions:
 1. Create ros_package
-
+  ```
   $ catkin_create_pkg beginner_tutorials std_msgs rospy
-
+  ```
+  
 2. Create srv file
   ```
   Structure of the service file
