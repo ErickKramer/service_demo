@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from service_demo.srv import two_ints
+#from ros_package.srv import srv_file
 import rospy
 
 class client:
@@ -44,11 +44,12 @@ if __name__=='__main__':
 
             result = n.name_of_client(parameter_1, parameter_2)
 
-            HINT: To collect specifically the value write:
-                result.sum
             Tasks:
             1. Display the result of the sum, the multiplication, the substraction,
             and division
+
+            HINT: To collect specifically the value write:
+                result.sum, for the response variable "sum"
 
         """
         rospy.spin()

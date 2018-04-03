@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from service_demo.srv import two_ints
+#from ros_package.srv import srv_file
 import rospy
 
 class server:
@@ -22,17 +22,18 @@ class server:
         Structure ->
             def name_server_function(request)
 
+        Tasks:
+        1. Add two numbers
+        2. Multiply two numbers
+        3. Substract two numbers
+        4. Divide two numbers (Make sure to calculate exact values)
+        5.
+
         HINT:
             -To access one of the components of the request write request.a for
-            the component a.
+            the request variable "a".
             -To return the operation result write return response
             -You could also return several operations. E.g. return a+b, c*d
-
-        Tasks:
-        1. Add the two numbers
-        2. Multiply the two numbers
-        3. Substract the two numbers
-        4. Divide the two numbers (Make sure to calculate exact values)
         """
 
 
